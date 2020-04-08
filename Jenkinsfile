@@ -128,7 +128,7 @@ pipeline {
                         subject: "SUCCESS - Core Integration Tests - Build ${BRANCH_NAME} #${BUILD_NUMBER}",
                         body: """
                             <p>
-                                All integration tests passed.  No further action required.
+                                All integration tests passed. No further action required.
                             </p>
                             <br>
                             <p>
