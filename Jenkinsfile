@@ -144,7 +144,7 @@ pipeline {
                                 </a>
                             </p>""",
                         replyTo: 'devops@mycroft.ai',
-                        to: 'devs@mycroft.ai',
+                        to: 'dev@mycroft.ai',
                         recipientProviders: [
                             [$class: 'RequesterRecipientProvider'],
                             [$class:'CulpritsRecipientProvider'],
